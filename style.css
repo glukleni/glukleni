@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "pixel_nes";
+    src: url("./fonts/Pixel_NES.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "minecraft";
+    src: url("./fonts/Minecraft.ttf") format("opentype");
+}
+
+body {
+    background: black;
+}
+
+marquee {
+    margin-top: 10px;
+    margin-bottom: -10px;
+
+    font-family: minecraft;
+    color: white;
+}
+
+.container {
+    display: flex;
+  
+    margin-right: 20%;
+    margin-left:  20%;
+
+    margin-top: 5%;
+}
+
+.main {
+    flex: 1.5;
+}
+
+.menu {
+    flex: 0.5;
+}
+
+.container div {
+    border-radius: 4px;
+  
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.intro {
+    display: block;
+    height: 300px;
+    
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.intro h2 {
+    font-family: pixel_nes;
+    color: #f16;
+
+    text-shadow: rgba(255, 17, 102, 0.55) 0px 0px 20px;
+}
+
+.intro img {
+    border: 1px solid #f16;
+    border-radius: 4px;
+    
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-right: 5px;
+}
+
+.about {
+    display: flex;
+    border: none !important;
+}
+
+.intro p {
+    margin-left: 10px;
+    display: inline-block;
+    align-items: start;
+
+    font-family: minecraft;
+    color: white;
+    
+}
+
+.intro span {
+    font-family: minecraft;
+    color: white;
+}
+
+.intro li {
+    font-family: minecraft;
+    color: white;
+
+    margin-top: 5px;
+}
+
+.main div {
+    min-width: 300px;
+    
+    border: 2px solid #333333;
+}
+
+.blog {
+    height: 120px;
+    padding-left: 20px;
+}
+
+.blog h2 {
+    font-family: pixel_nes;
+    color: #f16;
+
+    text-shadow: rgba(255, 17, 102, 0.55) 0px 0px 20px;    
+}
+
+.blog p {
+    display: inline;
+    font-family: minecraft;
+    
+    color: white;
+}
+
+.project_status {
+
+white-space: nowrap;
+    color: #f16 !important;
+    padding-left: 20px;
+
+    margin-bottom: 20px;
+}
+
+.menu div {
+    min-width: 200px;
+  
+    border: 2px solid #333333;
+}
+
+.activity {
+    display: flex;
+    height: 50px;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.activity span {
+    font-family: minecraft;
+    color: white;
+}
+
+.activity h2{
+    display: inline;
+
+    color: #f16;
+    text-shadow: rgba(255, 17, 102, 0.55) 0px 0px 20px;
+}
+
+.status {
+    height: 150px;
+    display: flex;
+
+    color: white;
+    font-family: minecraft;
+    
+    justify-content: center;
+    padding-top: 10px;
+}
